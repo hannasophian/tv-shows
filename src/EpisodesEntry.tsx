@@ -26,14 +26,14 @@ function EpisodesEntry(props: IEpisode): JSX.Element {
   }
 
   return (
-    <section>
+    <div className="episodesentry">
       <h3>
         {props.name} - {getEpisodeCode(props.season, props.number)}
       </h3>
       <img src={props.image.medium} alt={props.name} />
       <br />
-      {removeTags(props.summary)}
-    </section>
+      <p>{removeTags(props.summary)}</p>
+    </div>
   );
 }
 

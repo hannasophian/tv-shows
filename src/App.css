@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #152d35;
+}
+h1 {
+  color: #112031;
+  text-align: center;
+}
+
+h3 {
+  margin: 0px, 0px, 10px, 0px;
+}
+
+.episodesentry {
+  background-color: #d4ecdd;
+  padding: 20px;
+  margin: 20px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.episodegrid {
+  display: flex;
+  margin: 0 auto;
+}
