@@ -1,3 +1,4 @@
+import getEpisodeCode from "./utils/get-episode-code";
 interface IEpisode {
   id: number;
   url: string;
@@ -27,7 +28,7 @@ function EpisodesEntry(props: IEpisode): JSX.Element {
   return (
     <section>
       <h3>
-        {props.name} - S{props.season}E{props.number}
+        {props.name} - {getEpisodeCode(props.season, props.number)}
       </h3>
       <img src={props.image.medium} alt={props.name} />
       <br />
