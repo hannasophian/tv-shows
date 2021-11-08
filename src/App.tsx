@@ -1,5 +1,6 @@
 import episodes from "./episodes.json";
 import EpisodesEntry from "./EpisodesEntry";
+import AppFooter from "./AppFooter";
 
 function App(): JSX.Element {
   const allEpisodes = episodes.map((episode) => (
@@ -27,6 +28,7 @@ function App(): JSX.Element {
     <div className="App">
       <h1>TV List</h1>
       {allEpisodes}
+      <AppFooter />
     </div>
   );
 }
