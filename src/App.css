@@ -24,3 +24,8 @@ h3 {
   /* display: flex; */
   margin: 0 auto;
 }
+
+.searchbar {
+  margin: 0 auto;
+  text-align: center;
+}
